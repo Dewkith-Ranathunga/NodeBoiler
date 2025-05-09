@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 
 
 mongoose.connect(
-    "mongodb+srv://admin:123@cluster0.xjb2uho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "URL"
   )
   .then(() => {
     console.log("Connected to MongoDB");
